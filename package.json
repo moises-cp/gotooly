@@ -1,0 +1,22 @@
+{
+  "name": "gotooly",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "private": false,
+  "scripts": {
+    "test": "jest --verbose"
+    
+  },
+  "type": "module",
+  "author": "Moisés Colón Ponce",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.2.2",
+    "ts-jest": "^29.0.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.2.0",
+    "mocha": "^10.1.0"
+  }
+}
