@@ -5,10 +5,10 @@
   "main": "dist/index.js",
   "private": false,
   "scripts": {
+    "dev": "tsc -w",
     "test": "jest --verbose"
     
   },
-  "type": "module",
   "author": "Moisés Colón Ponce",
   "license": "ISC",
   "dependencies": {

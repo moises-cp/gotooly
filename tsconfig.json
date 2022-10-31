@@ -1,11 +1,22 @@
 {
   "compilerOptions": {
-    "baseUrl": "src",
+    "baseUrl": "src/",
     "declaration": true,
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
     "outDir": "dist",
+    "sourceMap": true,
     "strict": true,
     "target": "esnext",
-  }
+    "types": []
+  },
+  "include":[ 
+      "src/**/*.ts"
+   ],
+   "exclude":[ 
+      "node_modules"
+   ],
+   "watchOptions": {
+    "excludeDirectories": ["node_modules"]
+  },
 }
