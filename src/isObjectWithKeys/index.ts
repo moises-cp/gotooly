@@ -1,1 +1,1 @@
-export const isObjectWithKeys = (obj: any) => Boolean(typeof obj === 'object' && Object.keys(obj).length)  ;   
+export const isObjectWithKeys = (obj: any) => Boolean(typeof obj === 'object' && Object.keys(obj).length);   
