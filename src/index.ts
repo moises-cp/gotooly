@@ -1,1 +1,1 @@
-export { isObjectWithKeys } from './isObjectWithKeys/index'
+export { isObjectWithItems } from './isObjectWithItems/index'
