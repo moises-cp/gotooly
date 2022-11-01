@@ -1,1 +1,1 @@
-export const isArrayWithItems = (arr: any) => Array.isArray(arr);
+export const isArrayWithItems = (arr: any) => Boolean(arr && Array.isArray(arr) && arr.length);
