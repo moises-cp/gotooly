@@ -1,1 +1,2 @@
-export { isObjectWithItems } from './isObjectWithItems/index'
+export { isObjectWithItems } from './isObjectWithItems';
+export { isArrayWithItems } from './isArrayWithItems';

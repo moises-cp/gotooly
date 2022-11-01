@@ -1,0 +1,1 @@
+export const isArrayWithItems = (arr: any) => Array.isArray(arr);
