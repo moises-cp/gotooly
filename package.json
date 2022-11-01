@@ -4,6 +4,7 @@
   "description": "",
   "main": "dist/index.js",
   "private": false,
+  "repository": "github:moises-cp/gotooly",
   "scripts": {
     "dev": "tsc -w",
     "test": "jest --verbose"
