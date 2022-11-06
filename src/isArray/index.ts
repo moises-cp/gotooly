@@ -1,0 +1,1 @@
+export const isArray = (arr: Object) => Boolean(arr && Array.isArray(arr)); 

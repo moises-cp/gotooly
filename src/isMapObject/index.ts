@@ -1,0 +1,1 @@
+export const isMapObject = (obj: Object) => Boolean(obj && obj instanceof Map); 
