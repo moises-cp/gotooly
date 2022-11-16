@@ -5,3 +5,4 @@ export { isNumber } from './isNumber';
 export { isObject } from './isObject';
 export { isObjectWithItems } from './isObjectWithItems';
 export { isString } from './isString';
+export { removeInlineStyles } from './removeInlineStyles';

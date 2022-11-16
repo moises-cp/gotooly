@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.isString = exports.isObjectWithItems = exports.isObject = exports.isNumber = exports.isMapObject = exports.isArrayWithItems = exports.isArray = void 0;
+exports.removeInlineStyles = exports.isString = exports.isObjectWithItems = exports.isObject = exports.isNumber = exports.isMapObject = exports.isArrayWithItems = exports.isArray = void 0;
 var isArray_1 = require("./isArray");
 Object.defineProperty(exports, "isArray", { enumerable: true, get: function () { return isArray_1.isArray; } });
 var isArrayWithItems_1 = require("./isArrayWithItems");
@@ -15,4 +15,6 @@ var isObjectWithItems_1 = require("./isObjectWithItems");
 Object.defineProperty(exports, "isObjectWithItems", { enumerable: true, get: function () { return isObjectWithItems_1.isObjectWithItems; } });
 var isString_1 = require("./isString");
 Object.defineProperty(exports, "isString", { enumerable: true, get: function () { return isString_1.isString; } });
+var removeInlineStyles_1 = require("./removeInlineStyles");
+Object.defineProperty(exports, "removeInlineStyles", { enumerable: true, get: function () { return removeInlineStyles_1.removeInlineStyles; } });
 //# sourceMappingURL=index.js.map
