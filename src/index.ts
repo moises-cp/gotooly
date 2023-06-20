@@ -6,3 +6,5 @@ export { isObject } from './isObject';
 export { isObjectWithItems } from './isObjectWithItems';
 export { isString } from './isString';
 export { removeInlineStyles } from './removeInlineStyles';
+export { default as hasLength } from './hasLength';
+export { default as toMaxLength } from './toMaxLength';
