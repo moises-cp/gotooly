@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.toMaxLength = exports.hasLength = exports.removeInlineStyles = exports.isString = exports.isObjectWithItems = exports.isObject = exports.isNumber = exports.isMapObject = exports.isArrayWithItems = exports.isArray = void 0;
+exports.isLastname = exports.isFirstName = exports.isEmail = exports.regexTest = exports.toMaxLength = exports.hasLength = exports.removeInlineStyles = exports.isString = exports.isObjectWithItems = exports.isObject = exports.isNumber = exports.isMapObject = exports.isArrayWithItems = exports.isArray = void 0;
 var isArray_1 = require("./isArray");
 Object.defineProperty(exports, "isArray", { enumerable: true, get: function () { return isArray_1.isArray; } });
 var isArrayWithItems_1 = require("./isArrayWithItems");
@@ -21,4 +21,12 @@ var hasLength_1 = require("./hasLength");
 Object.defineProperty(exports, "hasLength", { enumerable: true, get: function () { return hasLength_1.default; } });
 var toMaxLength_1 = require("./toMaxLength");
 Object.defineProperty(exports, "toMaxLength", { enumerable: true, get: function () { return toMaxLength_1.default; } });
+var regexTest_1 = require("./regexTest");
+Object.defineProperty(exports, "regexTest", { enumerable: true, get: function () { return regexTest_1.default; } });
+var isEmail_1 = require("./isEmail");
+Object.defineProperty(exports, "isEmail", { enumerable: true, get: function () { return isEmail_1.default; } });
+var isFirstName_1 = require("./isFirstName");
+Object.defineProperty(exports, "isFirstName", { enumerable: true, get: function () { return isFirstName_1.default; } });
+var isLastName_1 = require("./isLastName");
+Object.defineProperty(exports, "isLastname", { enumerable: true, get: function () { return isLastName_1.default; } });
 //# sourceMappingURL=index.js.map

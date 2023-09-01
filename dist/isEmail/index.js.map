@@ -1,1 +1,1 @@
-{"version":3,"file":"index.js","sourceRoot":"","sources":["../../src/isEmail/index.ts"],"names":[],"mappings":";;;AAAA,mDAA6D;AAApD,gHAAA,OAAO,OAAkB"}
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../src/isEmail/index.ts"],"names":[],"mappings":";;AAAA,4CAAqC;AAErC,MAAM,OAAO,GAAG;IACd,OAAO,EAAE,aAAa;CACvB,CAAC;AAEF;;GAEG;AACH,kBAAe,CAAC,GAAQ,EAAE,EAAE;IAC1B,MAAM,MAAM,GAAG,EAAE,IAAI,EAAE,IAAI,EAAE,CAAC;IAC9B,OAAO,IAAA,mBAAS,EAAC,GAAG,EAAE,OAAO,CAAC,OAAO,EAAE,MAAM,CAAC,CAAC;AACjD,CAAC,CAAC"}
