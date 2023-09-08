@@ -1,10 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.toMaxLength = exports.removeInlineStyles = exports.regexTest = exports.isString = exports.isObjectWithItems = exports.isObject = exports.isNumber = exports.isMapObject = exports.isLastname = exports.isFirstName = exports.isEmail = exports.isArrayWithItems = exports.isArray = exports.hasLength = exports.hasCharacters = void 0;
+exports.toMaxLength = exports.removeInlineStyles = exports.regexTest = exports.isString = exports.isObjectWithItems = exports.isObject = exports.isNumber = exports.isMapObject = exports.isLastname = exports.isFirstName = exports.isEmail = exports.isArrayWithItems = exports.isArray = exports.hasMaxLength = exports.hasLength = exports.hasCharacters = void 0;
 var hasCharacters_1 = require("./hasCharacters");
 Object.defineProperty(exports, "hasCharacters", { enumerable: true, get: function () { return hasCharacters_1.default; } });
 var hasLength_1 = require("./hasLength");
 Object.defineProperty(exports, "hasLength", { enumerable: true, get: function () { return hasLength_1.default; } });
+var hasMaxLength_1 = require("./hasMaxLength");
+Object.defineProperty(exports, "hasMaxLength", { enumerable: true, get: function () { return hasMaxLength_1.default; } });
 var isArray_1 = require("./isArray");
 Object.defineProperty(exports, "isArray", { enumerable: true, get: function () { return isArray_1.isArray; } });
 var isArrayWithItems_1 = require("./isArrayWithItems");

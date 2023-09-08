@@ -1,6 +1,7 @@
 export { default as hasCharacters } from './hasCharacters';
 
 export { default as hasLength } from './hasLength';
+export { default as hasMaxLength } from './hasMaxLength';
 export { isArray } from './isArray';
 export { isArrayWithItems } from './isArrayWithItems';
 export { default as isEmail } from './isEmail';
