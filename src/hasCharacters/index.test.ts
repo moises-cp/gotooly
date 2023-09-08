@@ -1,4 +1,4 @@
-import { hasCharacters } from './index';
+import hasCharacters from './index';
 
 describe('hasCharacters', () => {
   test('true on one character', () => {
