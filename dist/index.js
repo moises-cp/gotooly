@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.toMaxLength = exports.removeInlineStyles = exports.regexTest = exports.isString = exports.isObjectWithItems = exports.isObject = exports.isNumber = exports.isMapObject = exports.isLastname = exports.isFirstName = exports.isEmail = exports.isArrayWithItems = exports.isArray = exports.hasMaxLength = exports.hasLength = exports.hasCharacters = void 0;
+exports.DefaultReturn = exports.toMaxLength = exports.removeInlineStyles = exports.regexTest = exports.isString = exports.isObjectWithItems = exports.isObject = exports.isNumber = exports.isMapObject = exports.isLastname = exports.isFirstName = exports.isEmail = exports.isArrayWithItems = exports.isArray = exports.hasMaxLength = exports.hasLength = exports.hasCharacters = void 0;
 var hasCharacters_1 = require("./hasCharacters");
 Object.defineProperty(exports, "hasCharacters", { enumerable: true, get: function () { return hasCharacters_1.default; } });
 var hasLength_1 = require("./hasLength");
@@ -20,7 +20,7 @@ Object.defineProperty(exports, "isLastname", { enumerable: true, get: function (
 var isMapObject_1 = require("./isMapObject");
 Object.defineProperty(exports, "isMapObject", { enumerable: true, get: function () { return isMapObject_1.isMapObject; } });
 var isNumber_1 = require("./isNumber");
-Object.defineProperty(exports, "isNumber", { enumerable: true, get: function () { return isNumber_1.isNumber; } });
+Object.defineProperty(exports, "isNumber", { enumerable: true, get: function () { return isNumber_1.default; } });
 var isObject_1 = require("./isObject");
 Object.defineProperty(exports, "isObject", { enumerable: true, get: function () { return isObject_1.isObject; } });
 var isObjectWithItems_1 = require("./isObjectWithItems");
@@ -33,4 +33,6 @@ var removeInlineStyles_1 = require("./removeInlineStyles");
 Object.defineProperty(exports, "removeInlineStyles", { enumerable: true, get: function () { return removeInlineStyles_1.removeInlineStyles; } });
 var toMaxLength_1 = require("./toMaxLength");
 Object.defineProperty(exports, "toMaxLength", { enumerable: true, get: function () { return toMaxLength_1.default; } });
+var DefaultReturn_1 = require("./DefaultReturn");
+Object.defineProperty(exports, "DefaultReturn", { enumerable: true, get: function () { return DefaultReturn_1.default; } });
 //# sourceMappingURL=index.js.map
