@@ -1,1 +1,1 @@
-{"version":3,"file":"index.js","sourceRoot":"","sources":["../../src/isNumber/index.ts"],"names":[],"mappings":";;;AAAO,MAAM,QAAQ,GAAG,CAAC,EAAO,EAAE,EAAE,CAAC,OAAO,CAAC,EAAE,IAAI,OAAO,EAAE,KAAK,QAAQ,CAAC,CAAC;AAA9D,QAAA,QAAQ,YAAsD"}
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../src/isNumber/index.ts"],"names":[],"mappings":";;AAAA,kBAAe,CAAC,EAAO,EAAE,EAAE,CAAC,OAAO,CAAC,EAAE,IAAI,OAAO,EAAE,KAAK,QAAQ,CAAC,CAAC"}

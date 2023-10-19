@@ -1,4 +1,4 @@
-import { isNumber } from "./index";
+import isNumber from '.';
 
 const func = () => console.log('callback function');
 
@@ -7,12 +7,16 @@ describe('isNumber', () => {
     expect(isNumber(2514)).toBe(true);
   });
 
+  test('false on number within string data type', () => {
+    expect(isNumber('2514')).toBe(false);
+  });
+
   test('return false on array', () => {
     expect(isNumber(['apple', 'orange'])).toBe(false);
   });
 
   test('return false on objects with property', () => {
-    expect(isNumber({ fruit: ['orange']})).toBe(false);
+    expect(isNumber({ fruit: ['orange'] })).toBe(false);
   });
 
   test('return false on empty object', () => {

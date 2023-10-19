@@ -1,1 +1,1 @@
-export const isNumber = (no: any) => Boolean(no && typeof no === 'number');
+export default (no: any) => Boolean(no && typeof no === 'number');
