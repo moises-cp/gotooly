@@ -1,4 +1,4 @@
-Run the project locally
+Run the project locally and transpile the TypeScript file into the dist folder
 
 ```
 npm run dev
